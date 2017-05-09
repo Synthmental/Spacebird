@@ -16,6 +16,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TestActivities.Test1" />
+        <activity android:name=".TestActivities.Test2" />
+        <activity android:name=".TestActivities.Test3" />
+        <activity android:name=".TestActivities.Test4" />
+        <activity android:name=".TestActivities.Test5" />
+        <activity android:name=".TestActivities.Test6" />
+        <activity android:name=".TestActivities.Test7" />
+        <activity android:name=".TestActivities.Test8" />
+        <activity android:name=".TestActivities.Test9" />
+        <activity android:name=".TestActivities.Test10" />
+        <activity android:name=".TestActivities.Test11" />
+        <activity android:name=".TestActivities.Test12" />
+        <activity android:name=".TestActivities.Test13" />
+        <activity android:name=".TestActivities.Test14" />
+        <activity android:name=".TestActivities.Test15" />
+        <activity android:name=".TestActivities.Test16" />
+        <activity android:name=".TestActivities.Test17" />
+        <activity android:name=".TestActivities.Test18" />
+        <activity android:name=".TestActivities.Test19" />
+        <activity android:name=".TestActivities.Test20" />
+        <activity android:name=".Results.Result1"></activity>
     </application>
 
 </manifest>
