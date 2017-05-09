@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     tools:context="com.shift.ned.spacebird.TestActivities.Test1">
 
@@ -41,12 +42,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:elevation="0dp"
             android:text="никогда"
             android:textAlignment="center"
             android:textSize="18sp" />
 
         <Button
             android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -84,7 +87,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-
             ads:adSize="BANNER"
             ads:adUnitId="@string/banner_ad_unit_id">
 
